@@ -21,7 +21,8 @@ const Homepage = () => {
         <h1>Countries Of The World</h1>
       </div>
       <ul className="list">
-        {countriesList.map((country) => {
+      {countriesList.length === 0 && <h1 className="loading">Loading...</h1>}
+      {countriesList && countriesList.map((country) => {
           return (
             <li key={country.name}>
               <Link to={country.name}>

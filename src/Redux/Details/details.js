@@ -16,12 +16,12 @@ export const getDetailsFromAPI = (country) => async (dispatch) => {
         name: country.name,
         flag: country.flags.png,
         region: country.region,
-        callingCodes: country.callingCodes,
         population: country.population,
         area: country.area,
         timezones: country.timezones[0],
-        currencies: country.currencies.name,
-        languages: country.languages.name
+        currencies: country.currencies[0].name,
+        languages: country.languages[0].name,
+        capital: country.capital
       }));
       if (arrData) {
         dispatch(getDetails(arrData));

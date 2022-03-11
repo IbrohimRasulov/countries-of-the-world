@@ -94,6 +94,7 @@ video {
   vertical-align: baseline;
   box-sizing: border-box;
   font-family: "Quicksand"; /* stylelint-disable-line font-family-no-missing-generic-family-keyword */
+  list-style-type: none;
 }
 
 /* HTML5 display-role reset for older browsers */
