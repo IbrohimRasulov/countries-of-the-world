@@ -4,13 +4,14 @@ import { AiFillSetting } from 'react-icons/ai';
 import { AiFillHome } from 'react-icons/ai';
 import { IoIosArrowBack } from 'react-icons/io';
 
-const Header = () => (
+const Header = ({search}) => (
   <header className="">
-    <NavLink to="/homepage">
+    <NavLink to="/">
       {({ isActive }) => (isActive
         ? (
           <div>
             <AiFillHome />
+
           </div>
         )
         : (
@@ -20,7 +21,7 @@ const Header = () => (
           </div>
         ))}
     </NavLink>
-    <input type="text" placeholder="Search.." />
+    {search === "true" ? (<input type="text" placeholder="Search.." />): null}
     <FaMicrophone />
     <AiFillSetting />
   </header>

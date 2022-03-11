@@ -1,15 +1,13 @@
 import { createStore, combineReducers, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
-import homepageReducer, { getCountriesFromAPI } from './Homepage/homepage';
-// import detailsReducer, { getDetailsFromAPI } from './Details/details';
+import homepageReducer from './Homepage/homepage';
+import detailsReducer from './Details/details';
 
 const reducer = combineReducers({
   homepageReducer,
-  // detailsReducer,
+  detailsReducer,
 });
 
 const store = createStore(reducer, applyMiddleware(thunk));
 
-store.dispatch(getCountriesFromAPI());
-// store.dispatch();
 export default store;
