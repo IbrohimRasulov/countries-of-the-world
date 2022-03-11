@@ -5,8 +5,8 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
-// import { Provider } from 'react-redux';
-// import store from './Redux/configureStore';
+import { Provider } from 'react-redux';
+import store from './Redux/configureStore';
 
 // ! Components
 import Header from './components/Header';
@@ -14,7 +14,7 @@ import Homepage from './components/Homepage';
 import Details from './components/Details';
 
 const App = () => (
-  // <Provider store={store}>
+  <Provider store={store}>
     <div className="App">
       <Router>
         <Header className="App-header" />
@@ -24,7 +24,7 @@ const App = () => (
         </Routes>
       </Router>
     </div>
-  // </Provider>
+  </Provider>
 );
 
 export default App;
