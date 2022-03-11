@@ -11,7 +11,6 @@ const Header = () => (
         ? (
           <div>
             <AiFillHome />
-            <input type="text" placeholder="Search.." />
           </div>
         )
         : (
@@ -21,6 +20,7 @@ const Header = () => (
           </div>
         ))}
     </NavLink>
+    <input type="text" placeholder="Search.." />
     <FaMicrophone />
     <AiFillSetting />
   </header>
