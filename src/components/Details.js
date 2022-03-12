@@ -61,9 +61,8 @@ const Details = () => {
             </li>
           </ul>
         </div>
-      )
-      )};
-    </div >
+      ))}
+    </div>
   );
 };
 

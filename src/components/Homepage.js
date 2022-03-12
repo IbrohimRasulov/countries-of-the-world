@@ -40,8 +40,7 @@ const Homepage = () => {
               <p>{country.name}</p>
             </Link>
           </li>
-        )
-        )}
+        ))}
       </ul>
     </div>
   );
