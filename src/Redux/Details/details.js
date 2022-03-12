@@ -1,6 +1,5 @@
 const GET_DETAILS_API = 'CountriesOfTheWorld/details/GET_DETAILS';
 
-
 const initialState = [];
 
 export const getDetails = (payload) => ({
@@ -21,7 +20,7 @@ export const getDetailsFromAPI = (country) => async (dispatch) => {
         timezones: country.timezones[0],
         currencies: country.currencies[0].name,
         languages: country.languages[0].name,
-        capital: country.capital
+        capital: country.capital,
       }));
       if (arrData) {
         dispatch(getDetails(arrData));

@@ -108,7 +108,7 @@ header svg:hover {
 .homepage ul {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px 0px;
+  gap: 20px 0;
   justify-content: space-evenly;
   width: 95%;
   margin: 30px auto;
@@ -124,6 +124,14 @@ header svg:hover {
   cursor: pointer;
 }
 
+.single-country ul li {
+  padding: 20px 50px;
+  font-size: 1.3rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
 .homepage ul li:hover {
   transform: scale(0.9);
   background-color: #6666e6;
@@ -131,6 +139,10 @@ header svg:hover {
 
 .homepage ul li a {
   text-decoration: none;
+}
+
+header p {
+  display: inline-block;
 }
 
 .homepage ul li a p {
@@ -145,10 +157,6 @@ header svg:hover {
 header div {
   display: flex;
   align-items: center;
-}
-
-header p {
-  display: inline-block;
 }
 
 .single-country-preview {
@@ -172,14 +180,6 @@ header p {
   font-size: 1.2rem;
   color: #fff;
   padding: 10px 0;
-}
-
-.single-country ul li {
-  padding: 20px 50px;
-  font-size: 1.3rem;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
 }
 
 .single-country ul li:nth-child(odd) {
