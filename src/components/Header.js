@@ -5,7 +5,7 @@ import { AiFillHome } from 'react-icons/ai';
 import { IoIosArrowBack } from 'react-icons/io';
 
 const Header = ({ search }) => (
-  <header className="">
+  <header>
     <NavLink to="/">
       {({ isActive }) => (isActive
         ? (

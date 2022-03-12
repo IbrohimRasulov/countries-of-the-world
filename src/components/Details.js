@@ -19,6 +19,7 @@ const Details = () => {
   return (
     <div className="details">
       <Header search="false" />
+      {!countryDetails && <h1 className="loading">No match...</h1>}
       {countryDetails && countryDetails.map((country) => {
         return (
           <div className="single-country">
