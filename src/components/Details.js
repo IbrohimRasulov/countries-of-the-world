@@ -42,7 +42,7 @@ const Details = () => {
               </li>
               <li>
                 <span>Population:</span>
-                <span>{Math.round(country.population / 100000).toFixed(1)} million</span>
+                <span>{(country.population / 1000000).toFixed(1)} million</span>
               </li>
               <li>
                 <span>Currency:</span>
