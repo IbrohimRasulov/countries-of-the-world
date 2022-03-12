@@ -28,11 +28,11 @@ const Homepage = () => {
       <input type="text" placeholder="Search..." onChange={(e) => setSearch(e.target.value)} />
       <div className="overview">
         <img src={world_map} alt="World map" />
-        <h1>Countries Of The World</h1>
+        {filteredData.length !== 0 && <h1>Countries Of The World</h1>}
       </div>
       <ul className="list">
         {countriesList.length === 0 && <h1 className="loading">Loading...</h1>}
-        {(filteredData.length === 0 && search.length !== 0) && <h1 className="loading">No match...</h1>}
+        {(filteredData.length === 0 && search.length !== 0) && <h1 className="loading">No match :(</h1>}
         {filteredData && filteredData.map((country) => {
           return (
             <li key={country.name}>

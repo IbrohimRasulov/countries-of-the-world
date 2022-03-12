@@ -25,8 +25,10 @@ const Details = () => {
           <div className="single-country">
             <div className="single-country-preview">
               <img src={country.flag} alt="Flag" />
-              <h1>{country.name}</h1>
-              <h2>{country.region}</h2>
+              <div>
+                <h1>{country.name}</h1>
+                <h2>{country.region}</h2>
+              </div>
             </div>
             <ul className="single-country-details">
               <li>
