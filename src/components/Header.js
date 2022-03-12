@@ -1,10 +1,9 @@
 import { NavLink } from 'react-router-dom';
 import { FaMicrophone } from 'react-icons/fa';
-import { AiFillSetting } from 'react-icons/ai';
-import { AiFillHome } from 'react-icons/ai';
+import { AiFillSetting, AiFillHome } from 'react-icons/ai';
 import { IoIosArrowBack } from 'react-icons/io';
 
-const Header = ({ search }) => (
+const Header = () => (
   <header>
     <NavLink to="/">
       {({ isActive }) => (isActive

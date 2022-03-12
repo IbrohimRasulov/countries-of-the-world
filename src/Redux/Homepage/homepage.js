@@ -15,7 +15,7 @@ export const getCountriesFromAPI = () => async (dispatch) => {
       const arrData = data.map((country) => ({
         name: country.name,
         flag: country.flags.png,
-        region: country.region
+        region: country.region,
       }));
       if (arrData) {
         dispatch(getCountries(arrData));
