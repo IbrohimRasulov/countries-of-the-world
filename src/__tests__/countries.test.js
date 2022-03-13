@@ -1,4 +1,4 @@
-import { getCountries, getCountryInfo } from '../redux/countries-slice';
+import { getCountries, getCountryInfo } from '../redux/countries-slice.js';
 
 describe('Test Reducers', () => {
   test('Get Countries', () => {

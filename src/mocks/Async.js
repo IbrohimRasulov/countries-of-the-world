@@ -15,7 +15,7 @@ const Async = () => {
     <div>
       <ul>
         {countries.map((country) => (
-          <li key={country.name.common}>{country.population}{country.name.common}</li>
+          <li key={country.name.common}>{country.population}</li>
         ))}
       </ul>
     </div>
