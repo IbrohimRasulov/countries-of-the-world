@@ -1,3 +1,4 @@
+/* eslint-disable import/extensions */
 import { getCountries, getCountryInfo } from '../redux/countries-slice';
 
 describe('Test Reducers', () => {
