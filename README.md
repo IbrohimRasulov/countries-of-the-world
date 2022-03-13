@@ -63,6 +63,11 @@ Feel free to check the issues page.
 
 Give a ⭐️ if you like this project!
 
+## Acknowledgments
+
+- Original design idea by Nelson Sakwa.
+- The design link [Behance](https://www.behance.net/sakwadesignstudio)
+
 ## 📝 License
 
 Copyright 2022
