@@ -13,9 +13,9 @@
 - React, Redux
 - [REST Countries API](https://restcountries.com/)
 
-## Live Demo (If available)
+## Live Demo
 
-[Live demo link](https://space-travelers-react.herokuapp.com/)
+[Live demo link](https://622d58d78174992ba18f3565--lucid-booth-a8da06.netlify.app/)
 
 ## Description Video
 
