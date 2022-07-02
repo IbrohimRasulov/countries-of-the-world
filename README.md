@@ -21,7 +21,7 @@
 
 [Video Link](https://www.loom.com/share/dcf555ef45dc491c8b3f081f7813ee68)
 
-## Get Started¬
+## Get Started
 
 ### Clone this repository
 
